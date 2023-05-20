@@ -1,0 +1,5 @@
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCla/8IhfPoY85yJ6Lg58y/llghIInQjFmFG8gMTisSzkuHxFuMNx7CTQwTVPamaygFBOLFcdUKEcAcwESZahORw2utJzjkOOrFIfTTUT89HGBJxx6jVfd7OOHQLMXPpiNNFeo8RyR0jmMRIarLB9ocXull2pCOQolTizga1cHFFM4W/4m7p4KY97xOoI8rz6RQvrTYEZK3VdAMW+uY5mtEZjlYSFqhGupAfSxJE30vl79eVCC2lTyi27awtveuMHS8O1I/kCogAzn1RVSqd6tg32pQv9t93Ud+tI+/iygaEUn44r80/hVJWoxNMaBhEE1+dlu50cFsGocjhyYIjeD3 muhammadatharrazka2022
+
+ssh -i ~/.ssh/atta-gcp muhammadatharrazka2022@34.142.175.182
+
+helm install main-app ./ --values values.yaml --namespace main-app
